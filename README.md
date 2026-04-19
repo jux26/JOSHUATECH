@@ -3,63 +3,54 @@
 </div>
 
 <div align="center">
-<a><img src='https://i.ibb.co/6RpfThB9/IMG-20240401-123456.jpg'/></a>
+<a><img src='https://i.ibb.co/6RpfThB9/IMG-20240401-123456.jpg' width="500"/></a>
 </div>
 
------------------------------------
+---
 
 <p align="center">
-  <a href="https://github.com/PRINCETECH19/PRINCE-XMD"><img title="Developer" src="https://img.shields.io/badge/Author-JOSHUA%20TECH%20SOLUTION-FF00FF.svg?style=big-square&logo=github" /></a>
+  <a href="https://github.com/JOSHUA-TECH"><img title="Developer" src="https://img.shields.io/badge/Author-JOSHUA%20TECH%20SOLUTION-FF00FF.svg?style=big-square&logo=github" /></a>
 </p>
 
 <div align="center">
-------------
 
-## FORK AND STAR FOR SUPPORT
-<a href="https://github.com/PRINCETECH19/PRINCE-XMD/fork"><img title="JOSHUA-TECH-SOLUTION" src="https://img.shields.io/badge/FORK-JOSHUA%20TECH%20SOLUTION-BOTh?color=indigo&style=for-the-badge&logo=github"></a>
---------------
-## SESSION SERVER
-  
-  <p align="center">
-  <a href="https://tohid-ai-web-pair-3.onrender.com">
-    <img src="https://img.shields.io/badge/SESSION ID HERE .2-25D366?style=for-the-badge&logo=render&logoColor=white" width="250">
-  </a>
+---
 
- ## DEPLOY ON HEROKU 
+## 🚀 KARIBU JOSHUA TECH SOLUTION
+**Tunatengeneza, tunarahisisha, na tunakuwezesha!**
 
-<p align="left">
-<a href="https://deploy-heroku-two.vercel.app/" target="_blank"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY%20ON%20HEROKU-white" alt="Heroku" width="300"></a>
-</p>
-   
-  </a>
+Jukwaa la kiteknolojia linalolenga kutoa huduma bora, nafuu na zenye ufanisi kwa watu binafsi, biashara na taasisi.
 
-<p align="left">
-<a href="https://render-phi-two.vercel.app/" target="_blank"><img title="DEPLOY-ON RENDER" src="https://img.shields.io/badge/DEPLOY%20ON%20RENDER-blue" alt="Render" width="300"></a>
-</p>
+---
 
-##  DEVELOPER
-  
-   <p align="center">
-  <a href="https://wa.me/255630511416">
-    <img src="https://img.shields.io/badge/CONTACT ME -25D366?style=for-the-badge&logo=whatsapp&logoColor=black" width="250">
-  </a>
- 
- ## SUPPORT CHANNEL JOIN
+## 💼 HUDUMA ZETU
 
-  <a href="https://whatsapp.com/channel/0029VakMPmjCxoB3LtbdOv1D">
-    <img src="https://img.shields.io/badge/JOIN CHANNEL -25D366?style=for-the-badge&logo=whatsapp&logoColor=blue" width="250">
-  </a>
-
-##  THANKS FOR USING JOSHUA TECH SOLUTION
-🚀 Tunatengeneza, tunarahisisha, na tunakuwezesha!
-
-💼 HUDUMA ZETU:
-✅ WhatsApp Bot
-✅ Website & System  
+✅ Kutengeneza WhatsApp Bot
+✅ Kutengeneza Website & System
 ✅ Logo & Design za matangazo
-✅ VCF za Status Viewers
+✅ Kusambaza VCF za Status Viewers
 ✅ Mafunzo ya Tech (Online & Offline)
-✅ Digital Marketing
+✅ Huduma za Digital Marketing
 ✅ Ushauri wa Kitaalamu wa IT
 
-📞 WASILIANA NASI: 0630511416
+---
+
+## 📞 WASILIANA NASI
+
+<p align="center">
+  <a href="https://wa.me/255630511416">
+    <img src="https://img.shields.io/badge/WhatsApp-0630511416-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="280">
+  </a>
+</p>
+
+## 📢 JIUNGE NA CHANNEL YETU
+
+<p align="center">
+  <a href="https://whatsapp.com/channel/0029VakMPmjCxoB3LtbdOv1D">
+    <img src="https://img.shields.io/badge/JOIN WHATSAPP CHANNEL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="300">
+  </a>
+</p>
+
+---
+
+### © 2026 JOSHUA TECH SOLUTION. Haki zote zimehifadhiwa.
