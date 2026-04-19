@@ -1,173 +1,57 @@
-<!DOCTYPE html>
-<html lang="sw">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Joshua Tech - Suluhisho la Kisasa</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-  
-  body {
-    background: #0a0e1a;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  .container {
-    max-width: 400px;
-    margin: auto;
-    background: #111827;
-    border-radius: 16px;
-    padding: 24px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    border: 1px solid #1e293b;
-  }
-  
-  .brand {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 700;
-    color: #22d3ee;
-    margin-bottom: 8px;
-  }
-  
-  .header h1 {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 8px 0;
-    text-align: center;
-  }
-  
-  .tagline {
-    font-weight: 700;
-    font-size: 20px;
-    margin: 16px 0;
-    text-align: center;
-    color: #e5e7eb;
-  }
-  
-  .desc {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #d1d5db;
-    text-align: center;
-    margin-bottom: 24px;
-  }
-  
-  .huduma {
-    margin: 24px 0;
-  }
-  
-  .huduma-title {
-    font-size: 18px;
-    font-weight: 700;
-    color: #22d3ee;
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  
-  .huduma-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .huduma-list li {
-    font-size: 14px;
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: #e5e7eb;
-  }
-  
-  .huduma-list li::before {
-    content: "✅";
-    font-size: 16px;
-  }
-  
-  .contact-box {
-    background: #1f2937;
-    border-radius: 12px;
-    padding: 20px;
-    margin-top: 24px;
-    text-align: center;
-    border: 1px solid #334155;
-  }
-  
-  .contact-title {
-    font-size: 18px;
-    font-weight: 700;
-    color: #22d3ee;
-    margin-bottom: 12px;
-  }
-  
-  .phone {
-    font-size: 15px;
-    font-weight: 600;
-    margin: 10px 0;
-    color: #fff;
-    background: #0f172a;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  
-  .btn {
-    display: block;
-    background: #06b6d4;
-    color: #fff;
-    text-decoration: none;
-    padding: 14px;
-    border-radius: 10px;
-    font-weight: 700;
-    margin-top: 16px;
-    transition: 0.3s;
-  }
-  
-  .btn:hover {
-    background: #0891b2;
-    transform: scale(1.02);
-  }
-</style>
-</head>
-<body>
-  <div class="container">
-    <div class="brand">JOSHUA TECH</div>
-    
-    <div class="header">
-      <h1>🚀 Karibu kwenye suluhisho la kisasa la teknolojia!</h1>
-    </div>
-    
-    <p class="tagline">Tunatengeneza, tunarahisisha, na tunakuwezesha!</p>
-    
-    <p class="desc">
-      Joshua Tech ni jukwaa la kiteknolojia linalolenga kutoa huduma bora, nafuu na zenye ufanisi kwa watu binafsi, biashara na taasisi.
-    </p>
-    
-    <div class="huduma">
-      <div class="huduma-title">💼 HUDUMA ZETU</div>
-      <ul class="huduma-list">
-        <li>Kutengeneza WhatsApp Bot</li>
-        <li>Kutengeneza Website & System</li>
-        <li>Logo & Design za matangazo</li>
-        <li>Kusambaza VCF za Status Viewers</li>
-        <li>Mafunzo ya Tech (Online & Offline)</li>
-        <li>Huduma za Digital Marketing</li>
-        <li>Ushauri wa Kitaalamu wa IT</li>
-      </ul>
-    </div>
-    
-    <div class="contact-box">
-      <div class="contact-title">📞 Wasiliana Nasi Leo!</div>
-      <div class="phone">📱 Namba 1: +255 691 548 458</div>
-      <div class="phone">📱 Namba 2: 0620 511 416</div>
-      <a href="https://whatsapp.com/channel/0029VakMPmjCxoB3LtbdOv1D" class="btn">
-        Jiunge na WhatsApp Channel
-      </a>
-    </div>
+
+<a
+  href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ADFF2F&center=true&width=1000&height=200&lines=PRINCE-XMD" alt="Typing SVG" /></a>
   </div>
-</body>
-</html>
+<a><img src='https://files.catbox.moe/v2fbec.jpeg'/></a>
+-----------------------------------
+
+<p align="center">
+  <a href="https://github.com/PRINCETECH19/PRINCE-XMD"><img title="Developer" src="https://img.shields.io/badge/Author-PRINCE%20XMD-FF00FF.svg?style=big-square&logo=github" /></a>
+</p>
+
+<div align="center"
+------------
+
+
+## FORK AND STAR FOR SUPPORT
+<a
+href="https://github.com/PRINCETECH19/PRINCE-XMD/fork"><img title="PRINCE-XMD" src="https://img.shields.io/badge/FORK-PRINCE%20XMD-BOTh?color=indigo&style=for-the-badge&logo=github"></a>
+--------------
+## SESSION SEVER
+  
+  <p align="center">
+  <a href="https://tohid-ai-web-pair-3.onrender.com">
+    <img src="https://img.shields.io/badge/SESSION ID HERE .2-25D366?style=for-the-badge&logo=render&logoColor=white" width="250">
+  </a>
+
+ ## DEPLOY ON HEROKU 
+
+<p align="left">
+<a href="https://deploy-heroku-two.vercel.app/" target="_blank"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY%20ON%20HEROKU-white"" alt="Heroku" width="300"></a>
+</p>
+   
+  </a>
+
+<p align="left">
+<a href="https://render-phi-two.vercel.app/" target="_blank"><img title="DEPLOY-ON RENDER" src="https://img.shields.io/badge/DEPLOY%20ON%20RENDER-blue"" alt="Heroku" width="300"></a>
+</p>
+
+
+
+
+  
+
+  ## DEVELOPER
+  
+   <p align="center">
+  <a href="https://wa.me/qr/HOUEYFRKCEGPH1template=https://wa.me/qr/HOUEYFRKCEGPH1">
+    <img src="https://img.shields.io/badge/CONTACT ME -25D366?style=for-the-badge&logo=whatsapp&logoColor=black" width="250">
+  </a>
+ 
+ ## SUPPORT CHANNEL JOIN
+
+  <a href="https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610template=https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610">
+    <img src="https://img.shields.io/badge/CHANNEL -25D366?style=for-the-badge&logo=whatsapp&logoColor=blue" width="250">
+  </a>
+
+##  THANKS FOR USE MY BOT ALL IN ALL I CREAT MY SELF WITHOUT ANY HELP
