@@ -1,56 +1,124 @@
-<div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ADFF2F&center=true&width=1000&height=200&lines=JOSHUA+TECH+SOLUTION" alt="Typing SVG" /></a>
-</div>
+{
+  "name": "joshuatech-bot",
+  "version": "2.0.0",
+  "description": "JOSHUA TECH WHATSAPP BOT FULL SYSTEM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "JOSHUA TECH",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "chalk": "^5.3.0"
+  }
+}
 
-<div align="center">
-<a><img src='https://i.ibb.co/6RpfThB9/IMG-20240401-123456.jpg' width="500"/></a>
-</div>
+module.exports = {
+    ownerNumber: "255620511416",
+    botName: "JOSHUA TECH BOT",
+    ownerName: "JOSHUA TECH",
+    channelLink: "https://whatsapp.com/channel/0029VakMPmjCxoB3LtbdOv1D",
+    prefix: "."
+}
+const { default: makeWASocket, useMultiFileAuthState } = require("@whiskeysockets/baileys")
+const qrcode = require("qrcode-terminal")
+const chalk = require("chalk")
+const config = require("./config")
 
----
+async function startBot() {
+    const { state, saveCreds } = await useMultiFileAuthState("session")
 
-<p align="center">
-  <a href="https://github.com/JOSHUA-TECH"><img title="Developer" src="https://img.shields.io/badge/Author-JOSHUA%20TECH%20SOLUTION-FF00FF.svg?style=big-square&logo=github" /></a>
-</p>
+    const sock = makeWASocket({
+        auth: state,
+        printQRInTerminal: false
+    })
 
-<div align="center">
+    sock.ev.on("creds.update", saveCreds)
 
----
+    sock.ev.on("connection.update", (update) => {
+        const { connection, qr } = update
 
-## 🚀 KARIBU JOSHUA TECH SOLUTION
-**Tunatengeneza, tunarahisisha, na tunakuwezesha!**
+        if (qr) {
+            console.log(chalk.green("SCAN QR HAPA 👇"))
+            qrcode.generate(qr, { small: true })
+        }
 
-Jukwaa la kiteknolojia linalolenga kutoa huduma bora, nafuu na zenye ufanisi kwa watu binafsi, biashara na taasisi.
+        if (connection === "open") {
+            console.log(chalk.blue(`✅ ${config.botName} IMEUNGANISHWA`))
+        }
 
----
+        if (connection === "close") {
+            console.log(chalk.red("❌ CONNECTION IMEFUNGWA, INAANZA UPYA..."))
+            startBot()
+        }
+    })
 
-## 💼 HUDUMA ZETU
+    sock.ev.on("messages.upsert", async ({ messages }) => {
+        const msg = messages[0]
+        if (!msg.message) return
 
-✅ Kutengeneza WhatsApp Bot
-✅ Kutengeneza Website & System
-✅ Logo & Design za matangazo
-✅ Kusambaza VCF za Status Viewers
-✅ Mafunzo ya Tech (Online & Offline)
-✅ Huduma za Digital Marketing
-✅ Ushauri wa Kitaalamu wa IT
+        const text = msg.message.conversation || msg.message.extendedTextMessage?.text
+        const from = msg.key.remoteJid
 
----
+        if (!text) return
 
-## 📞 WASILIANA NASI
+        const prefix = config.prefix
+        const command = text.startsWith(prefix) ? text.slice(1).split(" ")[0] : null
 
-<p align="center">
-  <a href="https://wa.me/255630511416">
-    <img src="https://img.shields.io/badge/WhatsApp-0630511416-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="280">
-  </a>
-</p>
+        if (!command) return
 
-## 📢 JIUNGE NA CHANNEL YETU
+        console.log(chalk.yellow(`COMMAND: ${command}`))
 
-<p align="center">
-  <a href="https://whatsapp.com/channel/0029VakMPmjCxoB3LtbdOv1D">
-    <img src="https://img.shields.io/badge/JOIN WHATSAPP CHANNEL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="300">
-  </a>
-</p>
+        // MENU
+        if (command === "menu") {
+            await sock.sendMessage(from, {
+                text: `👑 ${config.botName} 👑
 
----
+📌 COMMANDS:
+.menu
+.owner
+.ping
+.channel
 
-### © 2026 JOSHUA TECH SOLUTION. Haki zote zimehifadhiwa.
+💻 Powered by ${config.ownerName}`
+            })
+        }
+
+        // OWNER
+        if (command === "owner") {
+            await sock.sendMessage(from, {
+                text: `👤 OWNER: ${config.ownerName}
+📞 ${config.ownerNumber}`
+            })
+        }
+
+        // PING
+        if (command === "ping") {
+            await sock.sendMessage(from, {
+                text: "⚡ BOT IPO ACTIVE NA SPEED KALI!"
+            })
+        }
+
+        // CHANNEL
+        if (command === "channel") {
+            await sock.sendMessage(from, {
+                text: `📢 FOLLOW CHANNEL:
+${config.channelLink}`
+            })
+        }
+
+        // AUTO REPLY
+        if (text.toLowerCase() === "hi" || text.toLowerCase() === "hello") {
+            await sock.sendMessage(from, {
+                text: "👋 Karibu JOSHUA TECH BOT, andika .menu uone commands"
+            })
+        }
+    })
+}
+
+startBot()
+
+npm install
+npm start
